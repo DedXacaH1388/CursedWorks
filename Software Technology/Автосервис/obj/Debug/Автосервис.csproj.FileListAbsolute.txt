@@ -1,0 +1,12 @@
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.exe.config
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.exe
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.pdb
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csprojAssemblyReference.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form1.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Properties.Resources.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csproj.GenerateResource.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csproj.CoreCompileInputs.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.exe
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.pdb
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form2.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form3.resources
