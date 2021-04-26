@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Автосервис
 {
     public partial class Form1 : Form
@@ -30,11 +31,7 @@ namespace Автосервис
                 Form2 f2 = new Form2();
                 f2.Show();
             }
-                else
-            { 
-                label1.Text = "Login or Password incorrect";
-            }            
-        
+            else label1.Text = "Login or Password incorrect";
         }
     }
 }
