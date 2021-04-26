@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
 
 namespace Автосервис
 {
     public partial class Form1 : Form
     {
+        Form2 f2 = new Form2();
+        Form4 f4 = new Form4();
+
         public Form1()
         {
             InitializeComponent();
@@ -28,10 +31,14 @@ namespace Автосервис
             pp = textBox2.Text;
             if ((ll == l) && (pp == p))
             {
-                Form2 f2 = new Form2();
                 f2.Show();
             }
             else label1.Text = "Login or Password incorrect";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            f4.Show();
         }
     }
 }

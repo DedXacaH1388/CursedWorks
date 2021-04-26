@@ -12,6 +12,9 @@ namespace Автосервис
 {
     public partial class Form2 : Form
     {
+        Form3 f3 = new Form3();
+        Form1 f1 = new Form1();
+
         public Form2()
         {
             InitializeComponent();
@@ -19,13 +22,17 @@ namespace Автосервис
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
             f3.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            f1.Hide();
         }
     }
 }
