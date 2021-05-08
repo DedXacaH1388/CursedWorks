@@ -1,0 +1,35 @@
+DROP FUNCTION IF EXISTS get_teachers, pass_valid;
+
+
+-- get teacher names for logging in
+CREATE FUNCTION get_teachers ()
+RETURNS TABLE (
+	teacher_id		integer,
+	teacher_name	VARCHAR
+)
+AS $$
+BEGIN
+	RETURN QUERY 
+	SELECT teachers.teacher_id, teachers.teacher_name
+	FROM teachers
+	ORDER BY teacher_name;
+END;
+$$ LANGUAGE 'plpgsql';
+
+
+-- check if password hash valid
+CREATE FUNCTION pass_valid(_teacher_id integer, hash varchar(64))
+RETURNS integer
+AS $$
+DECLARE
+	_hash varchar(64);
+BEGIN
+	_hash = (SELECT teachers.pass_hash FROM teachers WHERE teacher_id = _teacher_id);
+	if _hash = hash then
+		RETURN 1;
+	else 
+		RETURN 0;
+	end if;
+END;
+$$ LANGUAGE 'plpgsql';
+
