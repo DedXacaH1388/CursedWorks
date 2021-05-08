@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iJI3Jdb6IrvcN7nSZCM5+ZT7L+Kh94/M4zMLV05KCskFTXnJR0HXGDt5V6rM6VLb6QoB7zKjbo6jBk50Xvv0QQ==",
+  "dgSpecHash": "P1d06ignuRQot24GrDJ4ZLRTCo/Ns2V68/qSu1VErny4BrUdBqgUPaLbajWesrbYriGpT2ObjowwZOQT7OQjXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DedXacaH\\Desktop\\Exam 5\\Journal\\Journal\\Journal.csproj",
+  "projectFilePath": "D:\\Cursed\\CursedWorks\\Journal\\Journal\\Journal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DedXacaH\\.nuget\\packages\\fontawesome.sharp\\5.15.3\\fontawesome.sharp.5.15.3.nupkg.sha512",
     "C:\\Users\\DedXacaH\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

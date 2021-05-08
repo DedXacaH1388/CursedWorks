@@ -39,6 +39,7 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelForm = new System.Windows.Forms.Panel();
+            this.btnFloors = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -48,6 +49,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.panelMenu.Controls.Add(this.btnFloors);
             this.panelMenu.Controls.Add(this.btnSettings);
             this.panelMenu.Controls.Add(this.btnCategories);
             this.panelMenu.Controls.Add(this.btnProducts);
@@ -57,7 +59,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(165, 431);
+            this.panelMenu.Size = new System.Drawing.Size(161, 431);
             this.panelMenu.TabIndex = 0;
             // 
             // btnSettings
@@ -75,9 +77,9 @@
             this.btnSettings.Margin = new System.Windows.Forms.Padding(2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
-            this.btnSettings.Size = new System.Drawing.Size(165, 49);
+            this.btnSettings.Size = new System.Drawing.Size(161, 49);
             this.btnSettings.TabIndex = 5;
-            this.btnSettings.Text = "Настройки";
+            this.btnSettings.Text = "Settings";
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSettings.UseVisualStyleBackColor = true;
@@ -98,9 +100,9 @@
             this.btnCategories.Margin = new System.Windows.Forms.Padding(2);
             this.btnCategories.Name = "btnCategories";
             this.btnCategories.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
-            this.btnCategories.Size = new System.Drawing.Size(165, 49);
+            this.btnCategories.Size = new System.Drawing.Size(161, 49);
             this.btnCategories.TabIndex = 4;
-            this.btnCategories.Text = "Категории";
+            this.btnCategories.Text = "Department";
             this.btnCategories.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCategories.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCategories.UseVisualStyleBackColor = true;
@@ -121,9 +123,9 @@
             this.btnProducts.Margin = new System.Windows.Forms.Padding(2);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
-            this.btnProducts.Size = new System.Drawing.Size(165, 49);
+            this.btnProducts.Size = new System.Drawing.Size(161, 49);
             this.btnProducts.TabIndex = 3;
-            this.btnProducts.Text = "Клиенты";
+            this.btnProducts.Text = "Patients";
             this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProducts.UseVisualStyleBackColor = true;
@@ -144,9 +146,9 @@
             this.btnShippers.Margin = new System.Windows.Forms.Padding(2);
             this.btnShippers.Name = "btnShippers";
             this.btnShippers.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
-            this.btnShippers.Size = new System.Drawing.Size(165, 49);
+            this.btnShippers.Size = new System.Drawing.Size(161, 49);
             this.btnShippers.TabIndex = 2;
-            this.btnShippers.Text = "Поставщики";
+            this.btnShippers.Text = "Doctors";
             this.btnShippers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnShippers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnShippers.UseVisualStyleBackColor = true;
@@ -159,7 +161,7 @@
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Margin = new System.Windows.Forms.Padding(2);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(165, 114);
+            this.panelLogo.Size = new System.Drawing.Size(161, 114);
             this.panelLogo.TabIndex = 0;
             // 
             // btnHome
@@ -180,10 +182,10 @@
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
             this.panelTitleBar.Controls.Add(this.lblTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(165, 0);
+            this.panelTitleBar.Location = new System.Drawing.Point(161, 0);
             this.panelTitleBar.Margin = new System.Windows.Forms.Padding(2);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(511, 61);
+            this.panelTitleBar.Size = new System.Drawing.Size(515, 61);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -196,7 +198,7 @@
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(511, 61);
+            this.lblTitle.Size = new System.Drawing.Size(515, 61);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -204,11 +206,33 @@
             // 
             this.panelForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.panelForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelForm.Location = new System.Drawing.Point(165, 61);
+            this.panelForm.Location = new System.Drawing.Point(161, 61);
             this.panelForm.Margin = new System.Windows.Forms.Padding(2);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(511, 370);
+            this.panelForm.Size = new System.Drawing.Size(515, 370);
             this.panelForm.TabIndex = 2;
+            // 
+            // btnFloors
+            // 
+            this.btnFloors.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFloors.FlatAppearance.BorderSize = 0;
+            this.btnFloors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFloors.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnFloors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.btnFloors.IconChar = FontAwesome.Sharp.IconChar.Tags;
+            this.btnFloors.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.btnFloors.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFloors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloors.Location = new System.Drawing.Point(0, 261);
+            this.btnFloors.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFloors.Name = "btnFloors";
+            this.btnFloors.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.btnFloors.Size = new System.Drawing.Size(161, 49);
+            this.btnFloors.TabIndex = 6;
+            this.btnFloors.Text = "Floors";
+            this.btnFloors.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloors.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFloors.UseVisualStyleBackColor = true;
             // 
             // Inpatient
             // 
@@ -245,6 +269,7 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panelForm;
+        private FontAwesome.Sharp.IconButton btnFloors;
     }
 }
 

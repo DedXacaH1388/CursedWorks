@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DedXacaH\\Desktop\\Exam 5\\Journal\\Journal\\Journal.csproj",
+      "projectUniqueName": "D:\\Cursed\\CursedWorks\\Journal\\Journal\\Journal.csproj",
       "projectName": "Journal",
-      "projectPath": "C:\\Users\\DedXacaH\\Desktop\\Exam 5\\Journal\\Journal\\Journal.csproj",
+      "projectPath": "D:\\Cursed\\CursedWorks\\Journal\\Journal\\Journal.csproj",
       "packagesPath": "C:\\Users\\DedXacaH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DedXacaH\\Desktop\\Exam 5\\Journal\\Journal\\obj\\",
+      "outputPath": "D:\\Cursed\\CursedWorks\\Journal\\Journal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DedXacaH\\AppData\\Roaming\\NuGet\\NuGet.Config",
