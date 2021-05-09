@@ -1,0 +1,12 @@
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Hospital.csprojAssemblyReference.cache
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Forms.ConnectionForm.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Forms.FormCategories.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Forms.FormShippers.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Forms.FormClients.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Inpatient.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Hospital.csproj.GenerateResource.cache
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Hospital.csproj.CoreCompileInputs.cache
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.exe
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.pdb
+D:\Cursed\CursedWorks\Warehouse\obj\Debug\Warehouse.Forms.LoginForm.resources

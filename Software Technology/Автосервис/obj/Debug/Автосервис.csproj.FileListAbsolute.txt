@@ -1,0 +1,58 @@
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.exe.config
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.exe
+D:\курсач\Автосервис\Автосервис\bin\Debug\Автосервис.pdb
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csprojAssemblyReference.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form1.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Properties.Resources.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csproj.GenerateResource.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.csproj.CoreCompileInputs.cache
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.exe
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.pdb
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form2.resources
+D:\курсач\Автосервис\Автосервис\obj\Debug\Автосервис.Form3.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Автосервис.exe.config
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Автосервис.exe
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Автосервис.pdb
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\BouncyCastle.Crypto.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Google.Protobuf.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Compression.LZ4.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Hash.xxHash.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Buffers.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Memory.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Numerics.Vectors.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Google.Protobuf.pdb
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Google.Protobuf.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Compression.LZ4.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\K4os.Hash.xxHash.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Buffers.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Memory.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Numerics.Vectors.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.csprojAssemblyReference.cache
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.Form1.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.Form2.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.Form3.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.Properties.Resources.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.csproj.GenerateResource.cache
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.csproj.CoreCompileInputs.cache
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.csproj.CopyComplete
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.exe
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.pdb
+D:\Cursed\CursedWorks\Software Technology\Автосервис\obj\Debug\Автосервис.Form4.resources
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Npgsql.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Text.Encodings.Web.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Text.Json.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Threading.Channels.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.ValueTuple.dll
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\Npgsql.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Text.Encodings.Web.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Text.Json.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Threading.Channels.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Cursed\CursedWorks\Software Technology\Автосервис\bin\Debug\System.ValueTuple.xml

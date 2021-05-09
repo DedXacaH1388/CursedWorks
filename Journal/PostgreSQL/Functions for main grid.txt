@@ -1,0 +1,54 @@
+DROP FUNCTION IF EXISTS get_dates, get_students, get_marks;
+
+
+-- get dates for grid headers
+CREATE FUNCTION get_dates(_subject_id integer)
+RETURNS TABLE (
+	lesson_id	integer,
+	lesson_date date
+)
+AS $$
+BEGIN
+	RETURN QUERY
+	SELECT lessons.lesson_id, lessons.lesson_date
+	FROM lessons
+	WHERE lessons.subject_id = _subject_id
+	ORDER BY lessons.lesson_date;
+END;
+$$ LANGUAGE 'plpgsql';
+
+-- get sudent names for grid headers
+CREATE FUNCTION get_students (_subject_id integer)
+RETURNS TABLE (
+	student_id		integer,
+	student_name	VARCHAR
+)
+AS $$
+BEGIN
+	RETURN QUERY
+	SELECT students.student_id, students.student_name
+	FROM students
+	WHERE students.class_id = (SELECT subjects.class_id
+							   FROM subjects
+							   WHERE subject_id = _subject_id)
+	ORDER BY students.student_name;
+END;
+$$ LANGUAGE 'plpgsql';
+
+--	get marks for every student
+CREATE FUNCTION get_marks (_student_id integer, _subject_id integer)
+RETURNS TABLE (
+	lesson_id	integer,
+	mark		integer
+)
+AS $$
+BEGIN
+	RETURN QUERY
+	SELECT journal.lesson_id, journal.mark
+	FROM journal
+	WHERE	journal.student_id = _student_id AND
+			journal.lesson_id IN (	SELECT lessons.lesson_id
+						  			FROM lessons
+						  			WHERE lessons.subject_id = _subject_id);
+END;
+$$ LANGUAGE 'plpgsql';
