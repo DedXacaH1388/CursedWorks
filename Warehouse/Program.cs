@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Warehouse
+namespace Warehouse.Forms
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Warehouse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogonUI());
+            Application.Run(new LoginForm());
         }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
-namespace Warehouse
+namespace Warehouse.Forms
 {
     public partial class FormShippers : Form
     {

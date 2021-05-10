@@ -1,7 +1,7 @@
 ﻿
-namespace Автосервис
+namespace carService
 {
-    partial class Form3
+    partial class orderCreateForm
     {
         /// <summary>
         /// Required designer variable.
@@ -114,7 +114,7 @@ namespace Автосервис
             this.label4.TabIndex = 8;
             this.label4.Text = "Вид проблемы";
             // 
-            // Form3
+            // orderCreateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,8 +128,8 @@ namespace Автосервис
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "orderCreateForm";
+            this.Text = "Order Create";
             this.ResumeLayout(false);
             this.PerformLayout();
 

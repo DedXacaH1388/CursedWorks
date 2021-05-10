@@ -1,4 +1,4 @@
-﻿namespace Warehouse
+﻿namespace Warehouse.Forms
 {
     partial class FormCategories
     {

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inpatient));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnFloors = new FontAwesome.Sharp.IconButton();
             this.btnSettings = new FontAwesome.Sharp.IconButton();
             this.btnCategories = new FontAwesome.Sharp.IconButton();
             this.btnProducts = new FontAwesome.Sharp.IconButton();
@@ -39,7 +40,6 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelForm = new System.Windows.Forms.Panel();
-            this.btnFloors = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -61,6 +61,29 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(161, 431);
             this.panelMenu.TabIndex = 0;
+            // 
+            // btnFloors
+            // 
+            this.btnFloors.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFloors.FlatAppearance.BorderSize = 0;
+            this.btnFloors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFloors.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnFloors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.btnFloors.IconChar = FontAwesome.Sharp.IconChar.Tags;
+            this.btnFloors.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.btnFloors.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFloors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloors.Location = new System.Drawing.Point(0, 261);
+            this.btnFloors.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFloors.Name = "btnFloors";
+            this.btnFloors.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
+            this.btnFloors.Size = new System.Drawing.Size(161, 49);
+            this.btnFloors.TabIndex = 6;
+            this.btnFloors.Text = "Floors";
+            this.btnFloors.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloors.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFloors.UseVisualStyleBackColor = true;
+            this.btnFloors.Click += new System.EventHandler(this.btnFloors_Click);
             // 
             // btnSettings
             // 
@@ -211,28 +234,6 @@
             this.panelForm.Name = "panelForm";
             this.panelForm.Size = new System.Drawing.Size(515, 370);
             this.panelForm.TabIndex = 2;
-            // 
-            // btnFloors
-            // 
-            this.btnFloors.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFloors.FlatAppearance.BorderSize = 0;
-            this.btnFloors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFloors.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnFloors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
-            this.btnFloors.IconChar = FontAwesome.Sharp.IconChar.Tags;
-            this.btnFloors.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
-            this.btnFloors.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFloors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFloors.Location = new System.Drawing.Point(0, 261);
-            this.btnFloors.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFloors.Name = "btnFloors";
-            this.btnFloors.Padding = new System.Windows.Forms.Padding(8, 0, 15, 0);
-            this.btnFloors.Size = new System.Drawing.Size(161, 49);
-            this.btnFloors.TabIndex = 6;
-            this.btnFloors.Text = "Floors";
-            this.btnFloors.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFloors.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFloors.UseVisualStyleBackColor = true;
             // 
             // Inpatient
             // 

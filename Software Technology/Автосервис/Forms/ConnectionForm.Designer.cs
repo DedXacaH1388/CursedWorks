@@ -1,7 +1,7 @@
 ﻿
-namespace Автосервис
+namespace carService
 {
-    partial class Form4
+    partial class connectionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,45 +29,39 @@ namespace Автосервис
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.hostBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.portBox = new System.Windows.Forms.TextBox();
+            this.dbComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // hostBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(168, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(168, 52);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.hostBox.Location = new System.Drawing.Point(107, 26);
+            this.hostBox.Name = "hostBox";
+            this.hostBox.Size = new System.Drawing.Size(100, 20);
+            this.hostBox.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(20, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Server";
+            this.label1.Text = "Host";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 55);
+            this.label2.Location = new System.Drawing.Point(20, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 13);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Database(set null for default)";
+            this.label2.Text = "Database";
             // 
             // button1
             // 
@@ -82,25 +76,44 @@ namespace Автосервис
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 79);
+            this.label3.Location = new System.Drawing.Point(20, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Login and password";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Port";
             // 
-            // Form4
+            // portBox
+            // 
+            this.portBox.Location = new System.Drawing.Point(107, 52);
+            this.portBox.Name = "portBox";
+            this.portBox.Size = new System.Drawing.Size(100, 20);
+            this.portBox.TabIndex = 9;
+            // 
+            // dbComboBox
+            // 
+            this.dbComboBox.FormattingEnabled = true;
+            this.dbComboBox.Items.AddRange(new object[] {
+            "car_service",
+            "hospital"});
+            this.dbComboBox.Location = new System.Drawing.Point(107, 80);
+            this.dbComboBox.Name = "dbComboBox";
+            this.dbComboBox.Size = new System.Drawing.Size(100, 21);
+            this.dbComboBox.TabIndex = 11;
+            // 
+            // connectionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 262);
+            this.ClientSize = new System.Drawing.Size(216, 184);
+            this.Controls.Add(this.dbComboBox);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.portBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form4";
-            this.Text = "Form4";
+            this.Controls.Add(this.hostBox);
+            this.Name = "connectionForm";
+            this.Text = "Connection Form";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -111,8 +124,9 @@ namespace Автосервис
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox hostBox;
         private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox portBox;
+        public System.Windows.Forms.ComboBox dbComboBox;
     }
 }

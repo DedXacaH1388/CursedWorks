@@ -1,5 +1,5 @@
 ﻿
-namespace Journal
+namespace Warehouse.Forms
 {
     partial class LoginForm
     {
@@ -37,7 +37,7 @@ namespace Journal
             this.topLabel = new System.Windows.Forms.Label();
             this.closeButton = new FontAwesome.Sharp.IconButton();
             this.iconPicture = new FontAwesome.Sharp.IconButton();
-            this.usernameComboBox = new Journal.FlatComboBox();
+            this.usernameComboBox = new System.Windows.Forms.ComboBox();
             this.topPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -141,11 +141,10 @@ namespace Journal
             // usernameComboBox
             // 
             this.usernameComboBox.FormattingEnabled = true;
-            this.usernameComboBox.Location = new System.Drawing.Point(117, 106);
-            this.usernameComboBox.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.usernameComboBox.Location = new System.Drawing.Point(117, 113);
             this.usernameComboBox.Name = "usernameComboBox";
             this.usernameComboBox.Size = new System.Drawing.Size(267, 28);
-            this.usernameComboBox.TabIndex = 32;
+            this.usernameComboBox.TabIndex = 33;
             // 
             // LoginForm
             // 
@@ -185,6 +184,6 @@ namespace Journal
         private FontAwesome.Sharp.IconButton closeButton;
         private System.Windows.Forms.Label topLabel;
         private FontAwesome.Sharp.IconButton iconPicture;
-        private FlatComboBox usernameComboBox;
+        private System.Windows.Forms.ComboBox usernameComboBox;
     }
 }

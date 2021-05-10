@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Автосервис
+namespace carService
 {
-    public partial class Form2 : Form
+    public partial class orderForm : Form
     {
-        Form3 f3 = new Form3();
-        Form1 f1 = new Form1();
+        orderCreateForm f3 = new orderCreateForm();
+        loginForm f1 = new loginForm();
 
-        public Form2()
+        public orderForm()
         {
             InitializeComponent();
         }

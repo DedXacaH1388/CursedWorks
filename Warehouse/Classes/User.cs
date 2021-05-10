@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Npgsql;
-using Journal.Classes;
+using Warehouse.Classes;
 using Newtonsoft.Json;
 using System.IO;
 
-namespace Journal.Classes
+namespace Warehouse.Classes
 {
     public class User
     {

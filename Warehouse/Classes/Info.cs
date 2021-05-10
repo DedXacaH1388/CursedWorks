@@ -3,11 +3,11 @@ using Npgsql;
 using System;
 using System.IO;
 using System.Windows.Forms;
-using Journal.Classes;
-using Journal.Forms;
+using Warehouse.Classes;
+using Warehouse.Forms;
 using System.Collections.Generic;
 
-namespace Journal.Classes
+namespace Warehouse.Classes
 {
     public class Info
     {
@@ -18,17 +18,17 @@ namespace Journal.Classes
 
         // pathways to settings
         private static string configPath = Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.LocalApplicationData), "Journal/Config");
+            Environment.SpecialFolder.LocalApplicationData), "Journal/Config");
         private static string palettePath = Path.Combine(Environment.GetFolderPath(
             Environment.SpecialFolder.LocalApplicationData), "Journal/Themes");
 
         // pathways to setting files
         public static string configFilePath = Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.LocalApplicationData), "Journal/Config/connection.json");
+            Environment.SpecialFolder.LocalApplicationData), "Journal/Config/connection.json");
         public static string paletteFilePath = Path.Combine(Environment.GetFolderPath(
             Environment.SpecialFolder.LocalApplicationData), "Journal/Themes/DefaultTheme.json");
         public static string userFilePath = Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.LocalApplicationData), "Journal/profile.prof");
+            Environment.SpecialFolder.LocalApplicationData), "Journal/profile.prof");
 
         //encryption password
         public static string password = "CSharp is not the best language";
@@ -172,10 +172,6 @@ namespace Journal.Classes
                 {
                     logForm.Show();
                     logForm.Activate();
-                }
-                else
-                {
-
                 }
             }
             catch (Exception)

@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using Journal.Classes;
+using Warehouse.Classes;
 using Npgsql;
 
-namespace Journal
+namespace Warehouse.Forms
 {
     public partial class LoginForm : Form
     {
@@ -57,8 +57,6 @@ namespace Journal
 
             tmp = Info.pal.backgroundAccent;
             usernameComboBox.BackColor = tmp;
-            usernameComboBox.BorderColor = tmp;
-            usernameComboBox.ButtonColor = Info.pal.background;
             passwordTextBox.BackColor = tmp;
             loginButton.BackColor = tmp;
             

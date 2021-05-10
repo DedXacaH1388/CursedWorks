@@ -1,5 +1,4 @@
-﻿
-namespace Journal.Forms
+﻿namespace Warehouse.Forms
 {
     partial class ConnectionForm
     {
@@ -43,7 +42,7 @@ namespace Journal.Forms
             this.topPanel = new System.Windows.Forms.Panel();
             this.closeButton = new FontAwesome.Sharp.IconButton();
             this.topLabel = new System.Windows.Forms.Label();
-            this.databaseComboBox = new Journal.FlatComboBox();
+            this.databaseComboBox = new System.Windows.Forms.ComboBox();
             this.topPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -209,13 +208,15 @@ namespace Journal.Forms
             // 
             // databaseComboBox
             // 
-            this.databaseComboBox.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.databaseComboBox.FormattingEnabled = true;
+            this.databaseComboBox.Items.AddRange(new object[] {
+            "car_service",
+            "red_book",
+            "hospital"});
             this.databaseComboBox.Location = new System.Drawing.Point(97, 138);
             this.databaseComboBox.Name = "databaseComboBox";
-            this.databaseComboBox.Size = new System.Drawing.Size(104, 26);
+            this.databaseComboBox.Size = new System.Drawing.Size(86, 21);
             this.databaseComboBox.TabIndex = 30;
-            this.databaseComboBox.DropDown += new System.EventHandler(this.databaseComboBox_DropDown_1);
             // 
             // ConnectionForm
             // 
@@ -263,6 +264,6 @@ namespace Journal.Forms
         private System.Windows.Forms.Panel topPanel;
         private System.Windows.Forms.Label topLabel;
         private FontAwesome.Sharp.IconButton closeButton;
-        private FlatComboBox databaseComboBox;
+        private System.Windows.Forms.ComboBox databaseComboBox;
     }
 }

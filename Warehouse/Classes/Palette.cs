@@ -7,7 +7,7 @@ using System.Drawing;
 using Newtonsoft.Json;
 using System.IO;
 
-namespace Journal.Classes
+namespace Warehouse.Classes
 {
     public class Palette
     {

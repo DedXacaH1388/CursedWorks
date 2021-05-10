@@ -1,7 +1,7 @@
 ﻿
-namespace Автосервис
+namespace carService
 {
-    partial class Form2
+    partial class orderForm
     {
         /// <summary>
         /// Required designer variable.
@@ -63,7 +63,7 @@ namespace Автосервис
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form2
+            // orderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,8 +71,8 @@ namespace Автосервис
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "orderForm";
+            this.Text = "Order Form";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 

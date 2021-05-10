@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Warehouse.Forms;
 using FontAwesome.Sharp;
 
 namespace Warehouse
@@ -84,11 +84,6 @@ namespace Warehouse
             }
         }
 
-        private void btnOrder_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
         private void btnShippers_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
@@ -98,14 +93,14 @@ namespace Warehouse
         private void btnClients_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new FormCategories());
             OpenChildForm(new FormClients());
+            OpenChildForm(new FormCategories());
         }
 
         private void btnCategories_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new FormClients());
+            OpenChildForm(new FormCategories());
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -160,6 +155,11 @@ namespace Warehouse
             {
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
             }
+        }
+
+        private void btnFloors_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

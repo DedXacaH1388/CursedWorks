@@ -10,11 +10,11 @@ using System.Windows.Forms;
 using System.IO;
 using Npgsql;
 using Newtonsoft.Json;
-using Journal.Classes;
+using Warehouse.Classes;
 using System.Runtime.InteropServices;
 
 
-namespace Journal.Forms
+namespace Warehouse.Forms
 {
      
     public partial class ConnectionForm : Form
@@ -79,7 +79,7 @@ namespace Journal.Forms
             connStrBuilder.Port = Convert.ToInt32(portTextBox.Text);
             connStrBuilder.Username = userTextBox.Text;
             connStrBuilder.Password = passwordTextBox.Text;
-            connStrBuilder.Database = "postgres";
+            connStrBuilder.Database = databaseComboBox.SelectedText;
 
             bool flag = false;
 
@@ -138,8 +138,6 @@ namespace Journal.Forms
             userTextBox.BackColor = tmp;
             passwordTextBox.BackColor = tmp;
             databaseComboBox.BackColor = tmp;
-            databaseComboBox.BorderColor = tmp;
-            databaseComboBox.ButtonColor = Info.pal.background;
             connectButton.BackColor = tmp;
             cancelButton.BackColor = tmp;
 
